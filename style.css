@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(9, 9, 9)
+}
+#resim{
+    margin-top: 5vh;
+    width: 100vw;
+    height: 70vh;
+    background: url(https://wallpaperaccess.com/full/314764.png)no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#isim{
+    width: 100vw;
+    height: 42vh;
+    background-color: white;
+    opacity: 80%;
+    color: black;
+    text-align: center;
+}
+#parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    
+}
+#simpson{
+    margin-left: 5vh;
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(https://seeklogo.com/images/T/The_Simpsons-logo-3C9E51DBBF-seeklogo.com.png)no-repeat;
+    background-size: cover;
+
+}
+#yazi{
+    margin-top: 10vh;
+    width: 40vw;
+    height: 90vh;
+    margin-left: 10vw;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+}
