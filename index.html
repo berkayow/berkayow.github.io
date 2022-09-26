@@ -6,21 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bar.css">
     <title>Berkay Çakır</title>
 </head>
 <body>
-        <div id="resim">
-            <div id="isim">
-                <h1 style="font-size: 3.5vw;">Hi I am Berkay</h1>
-                <h2 style="font-size: 2.5vw;">I am a Front-End Developer</h2>
-                <button>HireMe</button>
+      <div id="ana">
+            <div id="resim">
+                <div id="isim"><h1 style="font-size: 40px;">I'm Berkay</h1>
+                    <h2 style="font-size: 25px;">And I'm a Front-End Developer</h2>
+                    <button id="hire" onclick="location.href='https://www.linkedin.com/in/berkaycakiir/'">Hire me!</button>
+                </div>
+            </div>
+            <div id="parent">
+                <div id="bilgi">
+                    <h2 style="font-size: 30px;">Yeteneklerim ve Beceri Seviyelerim</h2>
+                </div>
+                <div id="skill">
+                    <div class="box">
+                        <div class="percent">
+                          <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                          </svg>
+                          <div class="num">
+                            <h2>50<span>%</span></h2>
+                          </div>
+                        </div>
+                        <h2 class="text">HTML</h2>
+                      </div>
+                      <div id="skill2">
+                        <div class="box">
+                            <div class="percent">
+                              <svg>
+                                <circle cx="70" cy="70" r="70"></circle>
+                                <circle cx="70" cy="70" r="70"></circle>
+                              </svg>
+                              <div class="num">
+                                <h2>50<span>%</span></h2>
+                              </div>
+                            </div>
+                            <h2 class="text">CSS</h2>
+                          </div>
+                    </div>
+                </div>
             </div>
             
-        </div>
-
-        <div id="parent">
-            <div id="simpson"></div>
-            <div id="yazi"><h1>herkese selamlar bu yanda gördüğünüz bi simpson karakteri</h1></div>
-        </div>
+      </div>
+      
+            
+                       
 </body>
 </html>
