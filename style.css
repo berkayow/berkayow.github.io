@@ -3,25 +3,13 @@ body{
     font-family: 'Oswald', sans-serif;
     background-color: black;
 }
-#navbar{
-    top:0;
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 300px;
-    flex-wrap: wrap;
-}
 #ana{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 #resim{
-    margin-top: 50px;
+    margin-top: 0px;
     width: 100%;
     height: 400px;
     /*background: url(https://images.wallpaperscraft.com/image/single/black_light_dark_figures_73356_1920x1080.jpg)no-repeat;*/
@@ -31,7 +19,7 @@ body{
     
 }
 #isim{
-    margin-top: 100px;
+    margin-top: 70px;
     width: 100%;
     height: 220px;
     background-color: aqua;
