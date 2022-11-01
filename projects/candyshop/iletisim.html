@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Candy Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="icon" href="https://i.pinimg.com/originals/a3/86/2e/a3862e78b02c0dd56965b330505cfb3d.png" type="image/x-icon" />
+  </head>
+  <style>
+    .yuk{
+    height: 500px;
+  }
+  @media screen and (max-width: 768px){
+    iframe {
+      width: 480px;
+    }
+  }
+  </style>
+  <body>
+    <!-- NAVBAR BAŞLANGIÇ -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #Ff69b4;" aria-label="Ninth navbar example">
+      <div class="container">
+        <a class="navbar-brand ms-2">
+          <img src="https://i.pinimg.com/originals/a3/86/2e/a3862e78b02c0dd56965b330505cfb3d.png" alt="Logo" width="120" height="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobil" aria-controls="mobil" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="mobil">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Ana Sayfa</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" aria-expanded="false">Ürünler</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="sekerler.html">Şekerler</a></li>
+                <li><a class="dropdown-item" href="kurabiyeler.html">Kurabiyeler</a></li>
+                <li><a class="dropdown-item" href="pastalar.html">Pastalar</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+          <div class="col-md-6 d-flex">
+            <form role="search">
+              <input style="width:300px;" class="form-control" type="search" placeholder="Hangi Ürünü Aramıştınız?" aria-label="Search">
+            </form>
+            <button class="btn btn-outline-secondary ms-1" type="submit">Ara</button>
+            <button type="button" class="btn btn-outline-secondary ms-1">Giriş Yap</button>
+            <button type="button" class="btn btn-secondary ms-1">Sepet</button>
+        </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- FORM BAŞLANGIÇ -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <label for="ad" class="form-label">Adınız</label>
+                <input style="width: 480px;" type="text" class="form-control" id="ad" aria-describedby="adHelp">
+                <hr style="width: 480px; opacity:0;">
+                <label for="soyad" class="form-label">Soy Adınız</label>
+                <input style="width: 480px;" type="text" class="form-control" id="soyad" aria-describedby="soyadHelp">
+                <hr style="width: 480px; opacity:0;">
+                <label for="eMail" class="form-label">Mail Adresiniz</label>
+                <input style="width: 480px;" type="email" class="form-control" id="eMail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">E-Mail Adresinizi Kimseyle Paylaşmayız.</div>
+              </div>
+              <div class="mb-3">
+                <label for="mesaj" class="form-label">Mesajınız</label>
+                <input style="width: 480px; height: 100px;" type="text" class="form-control" id="mesaj">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="check">
+                <label class="form-check-label" for="check">Tüm Her Şeyi Eksiksiz Doldurdum</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+          </div>
+          <!-- MAP -->
+          <div class="col mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1578.183304060517!2d28.870905564419093!3d40.981271815946755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabcbb2b71b017%3A0xd1473bcd529042cc!2sDejavu%20Cafe!5e0!3m2!1str!2str!4v1667266294009!5m2!1str!2str" width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+    <!-- footer start -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <a class="col-md-4 mb-0 text-muted navbar-brand">&copy; 2022 Berkay Çakır, Murat Balçın, Hilal Ertenay, Doğukan Bağlan</a>
+    
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Ana Sayfa</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">Hakkımızda</a></li>
+          <li class="nav-item"><a href="iletisim.html" class="nav-link px-2 text-muted">İletişim</a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
